@@ -146,7 +146,7 @@ public class AdoptionContextBuilder implements ContextBuilder<Household> {
 //			thisHousehold.setGeography(leicesterGeography);
 //		}
 		
-		File file = new File("C:\\LE2MasterMap\\probDomesticLE2.shp");
+		File file = new File(RepastEssentials.GetParameter("RootDir").toString() + "/dataFiles/probDomesticLE2.shp");
 	    ShapefileLoader loader = null;
 	    try {
 	    	loader = new ShapefileLoader(Household.class, file.toURL(), leicesterGeography, myContext);
