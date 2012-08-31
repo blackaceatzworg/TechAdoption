@@ -1,0 +1,36 @@
+[Tick -1.0; 2898930] : DEBUG - Adoption Context instantiated and logger configured
+[Tick -1.0; 2898930] : DEBUG - Got into the context builder
+[Tick -1.0; 2898930] : DEBUG - Random seed is 24
+[Tick -1.0; 2898930] : DEBUG - Created Poisson distribution, ID cern.jet.random.Poisson(30.0)
+[Tick -1.0; 2905711] : DEBUG - 17 households out of 40420 have PV
+[Tick -1.0; 2905711] : INFO - 40420 Households initialized and added to context and geography
+[Tick -1.0; 3336680] : DEBUG - Adoption Context instantiated and logger configured
+[Tick -1.0; 3336680] : DEBUG - Got into the context builder
+[Tick -1.0; 3336680] : DEBUG - Random seed is 25
+[Tick -1.0; 3336680] : DEBUG - Created Poisson distribution, ID cern.jet.random.Poisson(30.0)
+[Tick -1.0; 3347149] : DEBUG - 14 households out of 40420 have PV
+[Tick -1.0; 3347149] : INFO - 40420 Households initialized and added to context and geography
+[Tick -1.0; 3865430] : DEBUG - Adoption Context instantiated and logger configured
+[Tick -1.0; 3865430] : DEBUG - Got into the context builder
+[Tick -1.0; 3865430] : DEBUG - Random seed is 1
+[Tick -1.0; 3865430] : DEBUG - Created Poisson distribution, ID cern.jet.random.Poisson(30.0)
+[Tick -1.0; 3875586] : DEBUG - 12 households out of 40420 have PV
+[Tick -1.0; 3875586] : INFO - 40420 Households initialized and added to context and geography
+[Tick -1.0; 4537524] : DEBUG - Adoption Context instantiated and logger configured
+[Tick -1.0; 4537524] : DEBUG - Got into the context builder
+[Tick -1.0; 4537524] : DEBUG - Random seed is 2
+[Tick -1.0; 4537524] : DEBUG - Created Poisson distribution, ID cern.jet.random.Poisson(30.0)
+[Tick -1.0; 4552133] : DEBUG - 10 households out of 40420 have PV
+[Tick -1.0; 4552133] : INFO - 40420 Households initialized and added to context and geography
+[Tick -1.0; 5473463] : DEBUG - Adoption Context instantiated and logger configured
+[Tick -1.0; 5473463] : DEBUG - Got into the context builder
+[Tick -1.0; 5473463] : DEBUG - Random seed is 3
+[Tick -1.0; 5473463] : DEBUG - Created Poisson distribution, ID cern.jet.random.Poisson(30.0)
+[Tick -1.0; 5492667] : DEBUG - 11 households out of 40420 have PV
+[Tick -1.0; 5492682] : INFO - 40420 Households initialized and added to context and geography
+[Tick -1.0; 7024310] : DEBUG - Adoption Context instantiated and logger configured
+[Tick -1.0; 7024310] : DEBUG - Got into the context builder
+[Tick -1.0; 7024310] : DEBUG - Random seed is 4
+[Tick -1.0; 7024310] : DEBUG - Created Poisson distribution, ID cern.jet.random.Poisson(30.0)
+[Tick -1.0; 7061951] : DEBUG - 15 households out of 40420 have PV
+[Tick -1.0; 7061951] : INFO - 40420 Households initialized and added to context and geography

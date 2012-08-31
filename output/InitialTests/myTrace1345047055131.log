@@ -1,0 +1,4 @@
+[Tick -1.0; 7094] : DEBUG - Adoption Context instantiated and logger configured
+[Tick -1.0; 7110] : DEBUG - Got into the context builder
+[Tick -1.0; 17938] : DEBUG - 27 households out of 40420 have PV
+[Tick -1.0; 17938] : INFO - 40420 Households initialized and added to context and geography

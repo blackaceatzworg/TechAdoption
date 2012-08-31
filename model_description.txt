@@ -1,0 +1,5 @@
+This is the TechnologyAdoption model. 
+
+Written by Richard Snape - rsnape@dmu.ac.uk
+
+Part of the PhD project of author

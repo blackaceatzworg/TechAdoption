@@ -1,0 +1,215 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x6950571f, pid=6328, tid=6796
+#
+# JRE version: 6.0_22-b04
+# Java VM: Java HotSpot(TM) Client VM (17.1-b03 mixed mode windows-x86 )
+# Problematic frame:
+# C  [atioglx2.dll+0x50571f]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x2690b800):  JavaThread "AWT-EventQueue-0" [_thread_in_native, id=6796, stack(0x27120000,0x27b20000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x2c290000
+
+Registers:
+EAX=0x00000080, EBX=0x00000080, ECX=0x00000020, EDX=0x3c9ec8e8
+ESP=0x27b1ed68, EBP=0x2c290100, ESI=0x2c290000, EDI=0x3c9ec8e8
+EIP=0x6950571f, EFLAGS=0x00010206
+
+Top of Stack: (sp=0x27b1ed68)
+0x27b1ed68:   374f66c0 374f6150 0000000c 000000d8
+0x27b1ed78:   27b1ede0 372ae7b8 00000040 00000080
+0x27b1ed88:   3c9d7a68 3739adf8 3c9c1440 3739adf8
+0x27b1ed98:   3c9d7a68 3739adf8 374f6410 3739adf8
+0x27b1eda8:   00000001 3757cfa0 3c9e9fe8 0000002e
+0x27b1edb8:   00000000 00000017 00000080 23b496f0
+0x27b1edc8:   23b4971c 3c9e9fe8 00000000 00000001
+0x27b1edd8:   00000040 007fe0cf 00000100 00000000 
+
+Instructions: (pc=0x6950571f)
+0x6950570f:   ff 8b cb 8b c1 c1 e9 02 8b f5 03 6c 24 78 8b fa
+0x6950571f:   f3 a5 8b c8 83 e1 03 03 d3 83 6c 24 4c 01 f3 a4 
+
+
+Stack: [0x27120000,0x27b20000],  sp=0x27b1ed68,  free space=27fb27b1e89ck
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [atioglx2.dll+0x50571f]
+
+[error occurred during error reporting (printing native stack), id 0xc0000005]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  com.sun.opengl.impl.GLImpl.glTexSubImage2D1(IIIIIIIILjava/lang/Object;I)V+0
+j  com.sun.opengl.impl.GLImpl.glTexSubImage2D(IIIIIIIILjava/nio/Buffer;)V+85
+j  com.sun.opengl.util.texture.Texture.updateSubImageImpl(Lcom/sun/opengl/util/texture/TextureData;IIIIIIII)V+658
+j  com.sun.opengl.util.texture.Texture.updateSubImage(Lcom/sun/opengl/util/texture/TextureData;IIIIIII)V+51
+J  com.sun.opengl.util.j2d.TextureRenderer.getTexture()Lcom/sun/opengl/util/texture/Texture;
+J  com.sun.opengl.util.j2d.TextRenderer$Glyph.draw3D(FFFF)F
+J  com.sun.opengl.util.j2d.TextRenderer.internal_draw3D(Ljava/lang/CharSequence;FFFF)V
+J  gov.nasa.worldwind.render.GeographicTextRenderer.drawText(Lgov/nasa/worldwind/render/DrawContext;Lgov/nasa/worldwind/render/GeographicTextRenderer$OrderedText;DD)Lgov/nasa/worldwind/geom/Vec4;
+J  gov.nasa.worldwind.render.GeographicTextRenderer$OrderedText.render(Lgov/nasa/worldwind/render/DrawContext;)V
+J  gov.nasa.worldwind.AbstractSceneController.draw(Lgov/nasa/worldwind/render/DrawContext;)V
+j  gov.nasa.worldwind.AnaglyphSceneController.doRepaint(Lgov/nasa/worldwind/render/DrawContext;)V+103
+j  gov.nasa.worldwind.AbstractSceneController.repaint()I+40
+j  gov.nasa.worldwind.WorldWindowGLAutoDrawable.doDisplay()I+4
+j  gov.nasa.worldwind.WorldWindowGLAutoDrawable.display(Ljavax/media/opengl/GLAutoDrawable;)V+111
+J  com.sun.opengl.impl.GLDrawableHelper.display(Ljavax/media/opengl/GLAutoDrawable;)V
+j  javax.media.opengl.GLCanvas$DisplayAction.run()V+80
+J  com.sun.opengl.impl.GLDrawableHelper.invokeGL(Ljavax/media/opengl/GLDrawable;Ljavax/media/opengl/GLContext;Ljava/lang/Runnable;Ljava/lang/Runnable;)V
+J  javax.media.opengl.GLCanvas.maybeDoSingleThreadedWorkaround(Ljava/lang/Runnable;Ljava/lang/Runnable;)V
+j  javax.media.opengl.GLCanvas.display()V+9
+j  javax.media.opengl.GLCanvas.paint(Ljava/awt/Graphics;)V+125
+j  javax.media.opengl.GLCanvas.update(Ljava/awt/Graphics;)V+2
+J  sun.awt.RepaintArea.paint(Ljava/lang/Object;Z)V
+J  sun.awt.windows.WComponentPeer.handleEvent(Ljava/awt/AWTEvent;)V
+j  java.awt.Component.dispatchEventImpl(Ljava/awt/AWTEvent;)V+853
+J  java.awt.EventQueue.dispatchEvent(Ljava/awt/AWTEvent;)V
+J  java.awt.EventDispatchThread.pumpOneEventForFilters(I)Z
+j  java.awt.EventDispatchThread.pumpEventsForFilter(ILjava/awt/Conditional;Ljava/awt/EventFilter;)V+30
+j  java.awt.EventDispatchThread.pumpEventsForHierarchy(ILjava/awt/Conditional;Ljava/awt/Component;)V+11
+j  java.awt.EventDispatchThread.pumpEvents(ILjava/awt/Conditional;)V+4
+j  java.awt.EventDispatchThread.pumpEvents(Ljava/awt/Conditional;)V+3
+j  java.awt.EventDispatchThread.run()V+9
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x26ccf400 JavaThread "Running World Wind Retriever: http://www.nasa.network.com/wms?service=WMS&request=GetMap&version=1.3&srs=EPSG:4326&layers=esat&styles=&transparent=TRUE&format=image/dds&width=512&height=512&bbox=-1.125,52.6640625,-1.0546875,52.734375" daemon [_thread_in_native, id=6444, stack(0x3b6c0000,0x3c0c0000)]
+  0x2390e800 JavaThread "Running World Wind Retriever: http://www.nasa.network.com/wms?service=WMS&request=GetMap&version=1.3&srs=EPSG:4326&layers=esat&styles=&transparent=TRUE&format=image/dds&width=512&height=512&bbox=-1.1953125,52.6640625,-1.125,52.734375" daemon [_thread_in_native, id=6624, stack(0x3acc0000,0x3b6c0000)]
+  0x26bde400 JavaThread "Running World Wind Task (54.0°, -27.0°), (63.0°, -18.0°)" daemon [_thread_in_native, id=6076, stack(0x398c0000,0x3a2c0000)]
+  0x26b35800 JavaThread "Running World Wind Task gov.nasa.worldwind.layers.placename.PlaceNameLayer$Tile@ba5d2035" daemon [_thread_blocked, id=7360, stack(0x3a2c0000,0x3acc0000)]
+  0x26ea3800 JavaThread "Running World Wind Task gov.nasa.worldwind.layers.placename.PlaceNameLayer$Tile@82b99998" daemon [_thread_in_vm, id=6288, stack(0x38ec0000,0x398c0000)]
+  0x26adf800 JavaThread "Running World Wind Task gov.nasa.worldwind.layers.placename.PlaceNameLayer$Tile@b46d7472" daemon [_thread_blocked, id=4368, stack(0x384c0000,0x38ec0000)]
+  0x2390dc00 JavaThread "Thread-10" daemon [_thread_blocked, id=1092, stack(0x34a90000,0x35490000)]
+  0x269e1400 JavaThread "Running World Wind Retriever: http://www.nasa.network.com/wms?service=WMS&request=GetMap&version=1.3&srs=EPSG:4326&layers=esat&styles=&transparent=TRUE&format=image/dds&width=512&height=512&bbox=-0.984375,52.59375,-0.9140625,52.6640625" daemon [_thread_in_native, id=3240, stack(0x32c90000,0x33690000)]
+  0x23df6400 JavaThread "Running World Wind Retriever: http://www.nasa.network.com/wms?service=WMS&request=GetMap&version=1.3&srs=EPSG:4326&layers=esat&styles=&transparent=TRUE&format=image/dds&width=512&height=512&bbox=-0.984375,52.5234375,-0.9140625,52.59375" daemon [_thread_in_native, id=3016, stack(0x31890000,0x32290000)]
+  0x23cedc00 JavaThread "Timer-0" daemon [_thread_blocked, id=7700, stack(0x2ce90000,0x2d890000)]
+  0x23b8a400 JavaThread "WeakCollectionCleaner" daemon [_thread_blocked, id=2516, stack(0x2c490000,0x2ce90000)]
+  0x23eb5400 JavaThread "D3D Screen Updater" daemon [_thread_blocked, id=4852, stack(0x28a40000,0x29440000)]
+  0x003a7400 JavaThread "DestroyJavaVM" [_thread_blocked, id=8044, stack(0x008c0000,0x012c0000)]
+  0x23e0b400 JavaThread "TimerQueue" daemon [_thread_blocked, id=3064, stack(0x27b20000,0x28520000)]
+=>0x2690b800 JavaThread "AWT-EventQueue-0" [_thread_in_native, id=6796, stack(0x27120000,0x27b20000)]
+  0x23b45400 JavaThread "AWT-Windows" daemon [_thread_in_native, id=7780, stack(0x25370000,0x25d70000)]
+  0x23b42c00 JavaThread "AWT-Shutdown" [_thread_blocked, id=7880, stack(0x24970000,0x25370000)]
+  0x23b42400 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=6344, stack(0x23f70000,0x24970000)]
+  0x2057fc00 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=8064, stack(0x22e90000,0x23890000)]
+  0x2057a000 JavaThread "CompilerThread0" daemon [_thread_blocked, id=6728, stack(0x22e40000,0x22e90000)]
+  0x20578800 JavaThread "Attach Listener" daemon [_thread_blocked, id=4040, stack(0x22440000,0x22e40000)]
+  0x20577000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=4548, stack(0x21a40000,0x22440000)]
+  0x20565800 JavaThread "Finalizer" daemon [_thread_blocked, id=7144, stack(0x21040000,0x21a40000)]
+  0x20564400 JavaThread "Reference Handler" daemon [_thread_blocked, id=7228, stack(0x20640000,0x21040000)]
+
+Other Threads:
+  0x20561800 VMThread [stack: 0x205f0000,0x20640000] [id=708]
+  0x2058ac00 WatcherThread [stack: 0x23890000,0x238e0000] [id=7176]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x003a65b8] Threads_lock - owner thread: 0x26ea3800
+
+Heap
+ def new generation   total 53376K, used 21401K [0x03340000, 0x06d20000, 0x0b890000)
+  eden space 47488K,  38% used [0x03340000, 0x04555cd8, 0x061a0000)
+  from space 5888K,  48% used [0x06760000, 0x06a308f0, 0x06d20000)
+  to   space 5888K,   0% used [0x061a0000, 0x061a0000, 0x06760000)
+ tenured generation   total 118500K, used 79837K [0x0b890000, 0x12c49000, 0x1c340000)
+   the space 118500K,  67% used [0x0b890000, 0x106876c0, 0x10687800, 0x12c49000)
+ compacting perm gen  total 31744K, used 31523K [0x1c340000, 0x1e240000, 0x20340000)
+   the space 31744K,  99% used [0x1c340000, 0x1e208ef0, 0x1e209000, 0x1e240000)
+No shared spaces configured.
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\javaw.exe
+0x7c900000 - 0x7c9b2000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c8f6000 	C:\WINDOWS\system32\kernel32.dll
+0x77dd0000 - 0x77e6b000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e70000 - 0x77f03000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fe0000 - 0x77ff1000 	C:\WINDOWS\system32\Secur32.dll
+0x7e410000 - 0x7e4a1000 	C:\WINDOWS\system32\USER32.dll
+0x77f10000 - 0x77f59000 	C:\WINDOWS\system32\GDI32.dll
+0x76390000 - 0x763ad000 	C:\WINDOWS\system32\IMM32.DLL
+0x7c340000 - 0x7c396000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\msvcr71.dll
+0x6d7f0000 - 0x6da97000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\client\jvm.dll
+0x76b40000 - 0x76b6d000 	C:\WINDOWS\system32\WINMM.dll
+0x6d7a0000 - 0x6d7ac000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\verify.dll
+0x6d320000 - 0x6d33f000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\java.dll
+0x6d280000 - 0x6d288000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\hpi.dll
+0x76bf0000 - 0x76bfb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d7e0000 - 0x6d7ef000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\zip.dll
+0x6d000000 - 0x6d14a000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\awt.dll
+0x73000000 - 0x73026000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x77c10000 - 0x77c68000 	C:\WINDOWS\system32\msvcrt.dll
+0x774e0000 - 0x7761e000 	C:\WINDOWS\system32\ole32.dll
+0x773d0000 - 0x774d3000 	C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.6028_x-ww_61e65202\COMCTL32.dll
+0x77f60000 - 0x77fd6000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x5ad70000 - 0x5ada8000 	C:\WINDOWS\system32\uxtheme.dll
+0x74720000 - 0x7476c000 	C:\WINDOWS\system32\MSCTF.dll
+0x77b40000 - 0x77b62000 	C:\WINDOWS\system32\apphelp.dll
+0x755c0000 - 0x755ee000 	C:\WINDOWS\system32\msctfime.ime
+0x4fdd0000 - 0x4ff76000 	C:\WINDOWS\system32\d3d9.dll
+0x267c0000 - 0x267c6000 	C:\WINDOWS\system32\d3d8thk.dll
+0x77c00000 - 0x77c08000 	C:\WINDOWS\system32\VERSION.dll
+0x6d230000 - 0x6d27f000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\fontmanager.dll
+0x7c9c0000 - 0x7d1d7000 	C:\WINDOWS\system32\shell32.dll
+0x6d600000 - 0x6d613000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\net.dll
+0x71ab0000 - 0x71ac7000 	C:\WINDOWS\system32\WS2_32.dll
+0x71aa0000 - 0x71aa8000 	C:\WINDOWS\system32\WS2HELP.dll
+0x6d620000 - 0x6d629000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\nio.dll
+0x28910000 - 0x2891d000 	C:\Program Files\Adobe\Reader 9.0\Reader\plug_ins\FowpKbd.dll
+0x68000000 - 0x68036000 	C:\WINDOWS\system32\rsaenh.dll
+0x769c0000 - 0x76a74000 	C:\WINDOWS\system32\USERENV.dll
+0x5b860000 - 0x5b8b5000 	C:\WINDOWS\system32\netapi32.dll
+0x71a50000 - 0x71a8f000 	C:\WINDOWS\System32\mswsock.dll
+0x76f20000 - 0x76f47000 	C:\WINDOWS\system32\DNSAPI.dll
+0x76d60000 - 0x76d79000 	C:\WINDOWS\system32\iphlpapi.dll
+0x76fb0000 - 0x76fb8000 	C:\WINDOWS\System32\winrnr.dll
+0x76f60000 - 0x76f8c000 	C:\WINDOWS\system32\WLDAP32.dll
+0x76fc0000 - 0x76fc6000 	C:\WINDOWS\system32\rasadhlp.dll
+0x662b0000 - 0x66308000 	C:\WINDOWS\system32\hnetcfg.dll
+0x71a90000 - 0x71a98000 	C:\WINDOWS\System32\wshtcpip.dll
+0x25f70000 - 0x25fbd000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\jogl.dll
+0x5ed00000 - 0x5edcc000 	C:\WINDOWS\system32\OPENGL32.dll
+0x68b20000 - 0x68b40000 	C:\WINDOWS\system32\GLU32.dll
+0x73760000 - 0x737ab000 	C:\WINDOWS\system32\DDRAW.dll
+0x73bc0000 - 0x73bc6000 	C:\WINDOWS\system32\DCIMAN32.dll
+0x6d350000 - 0x6d356000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\jawt.dll
+0x26070000 - 0x26075000 	C:\RepastSimphony-2.0-beta\eclipse\jre\bin\jogl_awt.dll
+0x69000000 - 0x69abb000 	C:\WINDOWS\system32\atioglx2.dll
+
+VM Arguments:
+jvm_args: -Xss10M -Xmx400M -Dfile.encoding=Cp1252 
+java_command: repast.simphony.runtime.RepastMain C:\RepastSimphony-2.0-beta\workspace\SmartGridTechnologyAdoption/SmartGridTechnologyAdoption.rs
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+CLASSPATH=.;C:\Program Files\Java\jre6\lib\ext\QTJava.zip; C:\Program Files\InitialModel\repast.simphony\ext\jogl.jar
+PATH=C:/RepastSimphony-2.0-beta/eclipse/jre/bin/client;C:/RepastSimphony-2.0-beta/eclipse/jre/bin;C:/RepastSimphony-2.0-beta/eclipse/jre/lib/i386;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI.ACE\;c:\Program Files\Common Files\Roxio Shared\DLLShared\;c:\Program Files\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files\ZipGenius 6\;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Git\cmd;C:\Program Files\MATLAB\R2008a\bin;C:\Program Files\MATLAB\R2008a\bin\win32;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\GridLAB-D\lib;C:\Program Files\GridLAB-D\bin;C:\GnuPlot\bin;C:\Program Files\SSH Communications Security\SSH Secure Shell;C:\Python27
+USERNAME=jsnape
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 3
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1
+
+Memory: 4k page, physical 3143572k(849380k free), swap 5074796k(2006020k free)
+
+vm_info: Java HotSpot(TM) Client VM (17.1-b03) for windows-x86 JRE (1.6.0_22-b04), built on Sep 15 2010 00:56:36 by "java_re" with MS VC++ 7.1 (VS2003)
+
+time: Wed May 16 17:23:30 2012
+elapsed time: 143 seconds
+

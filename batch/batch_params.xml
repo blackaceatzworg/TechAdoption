@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<sweep runs="1">
+<parameter name="randomSeed" type="number" start="1" end="50" step="1">    <!-- <parameter name="randomSeed" type="list" value_type="int" values="1 2 3 4 5 6 7 8 9 10"> -->
+<parameter name="RootDir" type="constant" constant_type="string" value="C:\RepastSimphony-2.0-beta\workspace\SmartGridTechnologyAdoption" />
+</parameter>
+</sweep>
+

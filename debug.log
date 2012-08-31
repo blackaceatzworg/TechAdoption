@@ -1,0 +1,570 @@
+ERROR [Thread-2] 2012-08-28 11:02:12,153 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,153 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,169 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,169 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,169 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,169 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,169 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,169 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,169 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,184 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,184 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,184 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,184 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,184 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,184 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,184 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,184 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,200 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,215 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,215 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,215 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,215 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,215 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,215 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,215 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more
+ERROR [Thread-2] 2012-08-28 11:02:12,215 repast.simphony.engine.schedule.DynamicTargetAction - Tried to call: public void uk.ac.dmu.iesd.cascade.adoption.Household.checkTime()
+java.lang.reflect.InvocationTargetException
+	at uk.ac.dmu.iesd.cascade.adoption.Household$$FastClassByCGLIB$$406dfcee.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAction.execute(ScheduledMethodControllerAction.java:253)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:184)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:198)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.batch.BatchScheduleRunner$ScheduleLoopRunnable.run(BatchScheduleRunner.java:37)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at uk.ac.dmu.iesd.cascade.adoption.Household.checkTime(Household.java:89)
+	... 10 more

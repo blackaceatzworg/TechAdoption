@@ -1,0 +1,8 @@
+[Tick -1.0; 4406] : DEBUG - Adoption Context instantiated and logger configured
+[Tick -1.0; 4406] : DEBUG - Got into the context builder
+[Tick -1.0; 4406] : DEBUG - Random seed is 2103535691
+[Tick -1.0; 4422] : DEBUG - Created Poisson distribution, ID cern.jet.random.Poisson(30.0)
+[Tick -1.0; 143922] : DEBUG - Adoption Context instantiated and logger configured
+[Tick -1.0; 143922] : DEBUG - Got into the context builder
+[Tick -1.0; 143922] : DEBUG - Random seed is 2103535691
+[Tick -1.0; 143922] : DEBUG - Created Poisson distribution, ID cern.jet.random.Poisson(30.0)
