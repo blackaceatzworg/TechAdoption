@@ -1,6 +1,7 @@
-<repast.simphony.data.logging.outputter.engine.DefaultFileOutputterDescriptor>
+<uk.ac.dmu.iesd.cascade.io.NodeBasedFileOutputter>
   <name>File Outputter</name>
-  <outputterFactory class="repast.simphony.data.logging.outputter.engine.DefaultFileOutputterDescriptor$1">
+  <!--  <outputterFactory class="repast.simphony.data.logging.outputter.engine.DefaultFileOutputterDescriptor$1">-->
+  <outputterFactory class="uk.ac.dmu.iesd.cascade.io.NodeBasedFileOutputter$1">
     <outer-class reference="../.."/>
   </outputterFactory>
   <dataSetHandler>
@@ -10,6 +11,7 @@
   </dataSetHandler>
   <streamHandler>
     <columns>
+      <string>RandomSeed</string>
       <string>Tick</string>
       <string>AdoptionPercentage</string>
       <string>TypeID</string>
@@ -29,4 +31,4 @@
     </streamHandler>
   </formatType>
   <delimiter>,</delimiter>
-</repast.simphony.data.logging.outputter.engine.DefaultFileOutputterDescriptor>
+</uk.ac.dmu.iesd.cascade.io.NodeBasedFileOutputter>

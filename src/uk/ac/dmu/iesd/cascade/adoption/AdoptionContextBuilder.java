@@ -150,6 +150,7 @@ public class AdoptionContextBuilder implements ContextBuilder<Household> {
 	    ShapefileLoader loader = null;
 	    try {
 	    	loader = new ShapefileLoader(Household.class, file.toURL(), leicesterGeography, myContext);
+	    	System.out.println("have shapefile initialised with " + file.toURL().toString());
 	      	loader.load();
 	    } catch (MalformedURLException e) {
 	    	e.printStackTrace();

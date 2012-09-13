@@ -5,8 +5,6 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-import cern.colt.Arrays;
-
 import uk.ac.dmu.iesd.cascade.io.CSVReader;
 import uk.ac.dmu.iesd.cascade.io.CSVWriter;
 
@@ -77,7 +75,7 @@ public class CSVCompiler {
 			
 
 			
-			if (ext.equals("csv"))
+			if (name != output_name && ext.equals("csv"))
 			{
 				try {
 					CSVReader thisReader = new CSVReader(f);

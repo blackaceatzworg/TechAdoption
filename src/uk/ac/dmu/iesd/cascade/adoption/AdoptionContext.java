@@ -1,5 +1,6 @@
 package uk.ac.dmu.iesd.cascade.adoption;
 
+import javax.media.jai.WarpAffine;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -39,6 +40,7 @@ import repast.simphony.engine.schedule.ScheduledMethod;
 import repast.simphony.essentials.RepastEssentials;
 import repast.simphony.query.PropertyEquals;
 import repast.simphony.query.Query;
+import repast.simphony.random.RandomHelper;
 import repast.simphony.space.projection.Projection;
 import repast.simphony.util.collections.IndexedIterable;
 import repast.simphony.visualization.DefaultDisplayData;
@@ -50,6 +52,8 @@ import repast.simphony.visualizationOGL2D.StyledDisplayLayerOGL2D;
 import uk.ac.dmu.iesd.cascade.styles.HouseholdTwoDStyle;
 
 public class AdoptionContext extends DefaultContext{
+	
+	WarpAffine myWarp;
 	
 	private class CountUpdater implements ContextListener {
 
@@ -326,6 +330,11 @@ public class AdoptionContext extends DefaultContext{
 
 	public int getTickcount() {
 		return (int) RepastEssentials.GetTickCount();
+	}
+	
+	public int getRandomSeed()
+	{
+		return RandomHelper.getSeed();
 	}
 
 }

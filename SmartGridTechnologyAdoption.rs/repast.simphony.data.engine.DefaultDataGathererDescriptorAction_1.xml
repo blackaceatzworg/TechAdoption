@@ -34,11 +34,25 @@
           </method>
         </repast.simphony.data.logging.gather.MethodMapping>
       </entry>
+      <entry>
+        <string>RandomSeed</string>
+        <repast.simphony.data.logging.gather.MethodMapping>
+          <method>
+            <class>uk.ac.dmu.iesd.cascade.adoption.AdoptionContext</class>
+            <name>getRandomSeed</name>
+            <parameter-types/>
+          </method>
+        </repast.simphony.data.logging.gather.MethodMapping>
+      </entry>
     </nameMappingTable>
     <mappingNameTable>
       <entry>
         <repast.simphony.data.logging.gather.MethodMapping reference="../../../nameMappingTable/entry[2]/repast.simphony.data.logging.gather.MethodMapping"/>
         <string>TypeID</string>
+      </entry>
+      <entry>
+        <repast.simphony.data.logging.gather.MethodMapping reference="../../../nameMappingTable/entry[4]/repast.simphony.data.logging.gather.MethodMapping"/>
+        <string>RandomSeed</string>
       </entry>
       <entry>
         <repast.simphony.data.logging.gather.MethodMapping reference="../../../nameMappingTable/entry[3]/repast.simphony.data.logging.gather.MethodMapping"/>
