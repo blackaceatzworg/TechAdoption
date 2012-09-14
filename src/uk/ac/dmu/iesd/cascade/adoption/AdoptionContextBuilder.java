@@ -158,7 +158,10 @@ public class AdoptionContextBuilder implements ContextBuilder<Household> {
 	     
 	    
 	    households = Utils.makeArrayList(myContext.getObjects(Household.class));
-	    
+	    double observedDistanceMean = (Double) RepastEssentials.GetParameter("ObservedRadiusMean");
+	    double observedDistanceStd = (Double) RepastEssentials.GetParameter("ObservedRadiusStd");
+	    RandomHelper.createNormal(observedDistanceMean, observedDistanceStd);
+
 		int tmp = 0;
 		for (Household thisHousehold : households)
 		{
@@ -190,7 +193,9 @@ public class AdoptionContextBuilder implements ContextBuilder<Household> {
 			thisHousehold.hasSmartControl = false; //(RandomHelper.nextDouble() < thisHousehold.HEMSPropensity);
 			thisHousehold.hasElectricVehicle = (RandomHelper.nextDouble() < thisHousehold.EVPropensity);
 			thisHousehold.adoptionThreshold = 0.95;
-			thisHousehold.observedRadius = (RandomHelper.nextDouble() * 15);
+			//thisHousehold.observedRadius = (RandomHelper.nextDouble() * 15);
+			thisHousehold.observedRadius = RandomHelper.getNormal().nextDouble();
+			myContext.logger.debug(thisHousehold.agentName + " observes " + thisHousehold.observedRadius);
 			myContext.logger.trace(thisHousehold.agentName + " has " + thisHousehold.microgenPropensity + " and pre-assigned PV = "+thisHousehold.getHasPV());
 			tmp += thisHousehold.hasPV ? 1 : 0;
 		}		

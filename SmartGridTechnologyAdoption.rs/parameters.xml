@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <parameters>
-					<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
-						defaultValue="__NULL__"
-						isReadOnly="false" 
-						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
-									
-		/>
-				<parameter name="RootDir" displayName="Simulation root directory" type="java.lang.String" 
-						defaultValue="C:\RepastSimphony-2.0-beta\workspace\SmartGridTechnologyAdoption" 
-						isReadOnly="false" 
-						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
-									
-		/>
-		</parameters>
+	<parameter name="randomSeed" displayName="Default Random Seed"
+		type="int" defaultValue="__NULL__" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="RootDir" displayName="Simulation root directory"
+		type="java.lang.String"
+		defaultValue="C:\RepastSimphony-2.0-beta\workspace\SmartGridTechnologyAdoption"
+		isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter" />
+	<parameter name="ObservedRadiusMean" displayName="Mean distance that a household observes"
+		type="java.lang.Double"
+		defaultValue="7.5"
+		isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="ObservedRadiusStd" displayName="Standard deviation of distance that household observes (normally distributed)"
+		type="java.lang.Double"
+		defaultValue="0"
+		isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+</parameters>
 
 
